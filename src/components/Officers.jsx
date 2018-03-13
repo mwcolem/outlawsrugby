@@ -12,7 +12,7 @@ class Officers extends Component {
                 <div>Officers</div>
                 <ul>
                     {officers.map(function(officer, i) {
-                        return <li key={i}>{officer.name}</li>
+                        return <li key={i}>{officer.name} {officer.email} {officer.title} {officer.phone}</li>
                     })}
                 </ul>
             </div>
